@@ -5,6 +5,13 @@ return {
       picker = {
         sources = {
           explorer = {
+            layout = {
+              preset = "sidebar",
+              layout = {
+                width = 30,
+                min_width = 30,
+              },
+            },
             win = {
               input = {
                 keys = {
